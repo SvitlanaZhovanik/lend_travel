@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Navigate from './Navigate';
+import data from '@/data/header.json';
 
 export default function MobileMenu() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function MobileMenu() {
         onClick={navbarToggleHandler}
         className="md:hidden tracking-[1.4px]"
       >
-        MENU
+        {data.menu.open}
       </button>
       <div
         className={`smOnly:absolute smOnly:z-30 smOnly:bg-bg_mobile smOnly:backdrop-blur-[3px] ${
@@ -38,7 +39,7 @@ export default function MobileMenu() {
             className="absolute top-0 right-0 mt-[38px] mr-5 md:hidden tracking-[1.4px]"
             onClick={closeNavbar}
           >
-            CLOSE
+            {data.menu.close}
           </button>
         </div>
       </div>

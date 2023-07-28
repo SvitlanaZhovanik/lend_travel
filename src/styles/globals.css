@@ -31,4 +31,23 @@
       background-position: center;
     }
   }
+
+  .about {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left calc(50% + 295px);
+    background-image: url('/images/bg-about.png');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about {
+      background-image: url('/images/bg-about@2x.png');
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .about {
+      background-position: center;
+    }
+  }
 }
