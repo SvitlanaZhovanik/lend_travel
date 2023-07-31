@@ -33,12 +33,14 @@ To set up the Carpathy Travel Agency project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/carpathy-travel-agency.git```
+git clone [https://github.com/your-username/carpathy-travel-agency.git](https://github.com/SvitlanaZhovanik/lend_travel.git)
+```
 
 2. Navigate to the project directory:
 
 ```bash
-cd lend_travel```
+cd lend_travel
+```
 
 ## Technologies Used
 
