@@ -51,10 +51,6 @@ The Carpathy Travel Agency project utilizes the following technologies:
 - **Next.js:** A popular React framework for building server-rendered and static websites.
 - **TypeScript:** A typed superset of JavaScript, adding static typing to the language.
 - **Tailwind CSS:** A utility-first CSS framework for building responsive and stylish user interfaces.
-- **React Query:** A powerful data-fetching library for managing API data in React applications.
-- **Mapbox GL JS:** An interactive map library for integrating custom maps and geospatial data.
-- **Axios:** A lightweight HTTP client used for making API requests.
-- **Jest and React Testing Library:** For writing unit tests and ensuring code quality.
 - **ESLint and Prettier:** For maintaining consistent code style and quality.
 
 The project also relies on various other dependencies, which are listed in the `package.json` file.
