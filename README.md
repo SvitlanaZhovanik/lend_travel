@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Carpathy Travel Agency - 7 Days Carpathian Adventure
 
-## Getting Started
+Welcome to the Carpathy Travel Agency! This is a Next.js, TypeScript, and Tailwind.css project designed to help travelers embark on a memorable 7-day adventure in the stunning Carpathian Mountains. Whether you're an avid hiker, a nature enthusiast, or simply looking for a getaway surrounded by breathtaking landscapes, this project has got you covered.
 
-First, run the development server:
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Carpathy Travel Agency is a web application that provides a detailed itinerary for a 7-day trip to the Carpathian Mountains. It includes various activities, scenic spots, hiking trails, and accommodations to ensure a memorable experience for travelers. The project is built using Next.js, TypeScript, and Tailwind.css to deliver a fast, responsive, and beautiful user interface.
+
+## Features
+
+- **7-Day Itinerary:** Explore a carefully curated itinerary for an exciting 7-day journey through the Carpathian Mountains.
+- **Activities:** Discover a range of activities, such as hiking, wildlife spotting, local cultural experiences, and more.
+- **Accommodations:** Find comfortable and charming lodgings strategically located along the route.
+- **Interactive Map:** An interactive map displaying key points of interest, hiking trails, and recommended stops.
+- **Weather Forecast:** Check the weather forecast for each day of your trip to be well-prepared.
+- **Photo Gallery:** Browse through stunning photos of the Carpathian landscapes to get inspired.
+- **User Authentication:** Register and log in to save and customize your itinerary.
+
+## Installation
+
+To set up the Carpathy Travel Agency project locally, follow these steps:
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+git clone https://github.com/your-username/carpathy-travel-agency.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd lend_travel
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
