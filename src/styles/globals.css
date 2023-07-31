@@ -23,12 +23,14 @@
     background-size: cover;
     background-position: top center;
     background-image: url('/images/bg-hero.png');
+    background-image: -webkit-image-set(url('/images/bg-hero.webp') 1x);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
       background-image: url('/images/bg-hero@2x.png');
+      background-image: -webkit-image-set(url('/images/bg-hero@2x.webp') 2x);
     }
   }
   @media screen and (min-width: 1280px) {
@@ -42,12 +44,14 @@
     background-size: cover;
     background-position: top left calc(50% + 295px);
     background-image: url('/images/bg-about.png');
+    background-image: -webkit-image-set(url('/images/bg-about.webp') 1x);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about {
       background-image: url('/images/bg-about@2x.png');
+      background-image: -webkit-image-set(url('/images/bg-about@2x.webp') 2x);
     }
   }
   @media screen and (min-width: 768px) {
@@ -79,12 +83,14 @@
     background-size: cover;
     background-position: top center;
     background-image: url('/images/bg-gallery.png');
+    background-image: -webkit-image-set(url('/images/bg-gallery.webp') 1x);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .gallery {
       background-image: url('/images/bg-gallery@2x.png');
+      background-image: -webkit-image-set(url('/images/bg-gallery@2x.webp') 2x);
     }
   }
   .contact {
@@ -92,12 +98,14 @@
     background-size: cover;
     background-position: top center;
     background-image: url('/images/bg-contact.png');
+    background-image: -webkit-image-set(url('/images/bg-contact.webp') 1x);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contact {
       background-image: url('/images/bg-contact@2x.png');
+      background-image: -webkit-image-set(url('/images/bg-contact@2x.webp') 2x);
     }
   }
 }
