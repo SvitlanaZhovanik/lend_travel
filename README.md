@@ -33,10 +33,42 @@ To set up the Carpathy Travel Agency project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/carpathy-travel-agency.git
+git clone https://github.com/your-username/carpathy-travel-agency.git```
 
 2. Navigate to the project directory:
 
 ```bash
-cd lend_travel
+cd lend_travel```
+
+## Technologies Used
+
+The Carpathy Travel Agency project utilizes the following technologies:
+
+- **Next.js:** A popular React framework for building server-rendered and static websites.
+- **TypeScript:** A typed superset of JavaScript, adding static typing to the language.
+- **Tailwind CSS:** A utility-first CSS framework for building responsive and stylish user interfaces.
+- **React Query:** A powerful data-fetching library for managing API data in React applications.
+- **Mapbox GL JS:** An interactive map library for integrating custom maps and geospatial data.
+- **Axios:** A lightweight HTTP client used for making API requests.
+- **Jest and React Testing Library:** For writing unit tests and ensuring code quality.
+- **ESLint and Prettier:** For maintaining consistent code style and quality.
+
+The project also relies on various other dependencies, which are listed in the `package.json` file.
+
+## Contributing
+
+We welcome contributions to improve the Carpathy Travel Agency project. If you find any issues, have suggestions for new features, or want to fix a bug, please feel free to open an issue or submit a pull request. Make sure to follow the project's code of conduct.
+
+Before making any contributions, please familiarize yourself with the project's coding standards and guidelines. To get started, you can check the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## License
+
+The Carpathy Travel Agency project is open-source and available under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+We want to extend our heartfelt thanks to all contributors and supporters of the Carpathy Travel Agency project. Your dedication and passion have made this project possible.
+
+Thank you for choosing the Carpathy Travel Agency! We hope you have an unforgettable 7-day adventure in the Carpathian Mountains. If you have any questions or need assistance, don't hesitate to reach out to us. Happy travels! 🏔️🚗
+
 
