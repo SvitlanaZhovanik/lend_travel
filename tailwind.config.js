@@ -35,6 +35,7 @@ module.exports = {
       },
       boxShadow: {
         sticky: 'inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)',
+        gallery: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
       },
       animation: {
         enter: 'enter 0.3s ease-in-out',

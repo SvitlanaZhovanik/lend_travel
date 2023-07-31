@@ -1,0 +1,38 @@
+{
+    "title": {
+        "span": "US",
+        "text": "CONTACT"
+    },
+    "phone": {
+        "text": "Phone number",
+        "numbers": [
+            "+38 (098) 12 34 567",
+            "+38 (098) 12 34 567"
+        ]
+    },
+    "mail": {
+        "text": "E-mail",
+        "email": "support@carptravel.com"
+    },
+    "social": {
+        "text": "Follow us",
+        "links": [
+            {
+                "name": "Facebook",
+                "url": "/"
+            },
+            {
+                "name": "Instagram",
+                "url": "/"
+            },
+            {
+                "name": "Youtube",
+                "url": "/"
+            },
+            {
+                "name": "TikTok",
+                "url": "/"
+            }
+        ]
+    }
+}

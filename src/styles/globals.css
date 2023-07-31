@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  textarea {
+    resize: none;
+    height: auto;
+    width: 100%;
+  }
 }
 
 @layer components {
@@ -67,5 +72,32 @@
     transform: rotate(45deg);
     background-color: #fff;
     display: block;
+  }
+
+  .gallery {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-image: url('/images/bg-gallery.png');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .gallery {
+      background-image: url('/images/bg-gallery@2x.png');
+    }
+  }
+  .contact {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-image: url('/images/bg-contact.png');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .contact {
+      background-image: url('/images/bg-contact@2x.png');
+    }
   }
 }

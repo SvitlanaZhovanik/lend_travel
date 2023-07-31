@@ -1,0 +1,22 @@
+{
+    "title": {
+        "span": "GALLERY",
+        "text": "OUR"
+    },
+    "images": [
+        {
+            "url": "/images/gallery_1.png",
+            "text": "a house in the Carpathians"
+        },
+        {
+            "url": "/images/gallery_2.png",
+            "text": "Lake Synevir"
+        },
+        {
+            "url": "/images/gallery_3.png",
+            "text": "mountain top"
+        }
+    ],
+    "btnPrev": "BACK",
+    "btnNext": "NEXT"
+}
