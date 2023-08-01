@@ -36,7 +36,7 @@ export default function Form() {
     <>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col mdOnly:flex-row w-full mdOnly::gap-5 xl:max-w-[608px]"
+        className="flex flex-col mdOnly:flex-row w-full mdOnly:gap-5 xl:max-w-[608px]"
       >
         <div className="mdOnly:w-[221px] xl:flex  xl:gap-5 w-full">
           <label className="font-extralight w-full block min-h-[80px] text-[12px] leading-loose tracking-[2.4px]">
@@ -117,13 +117,14 @@ export default function Form() {
               {errors['message'] && errors['message']?.message}
             </span>
           </label>
-
-          <button
-            type="submit"
-            className="text-end flex justify-end duration-300 hover:opacity-40 focus:opacity-40 text-[30px] font-medium"
-          >
-            SEND
-          </button>
+          <div className="flex justify-end">
+            <button
+              type="submit"
+              className="text-end inline-block duration-300 hover:opacity-40 focus:opacity-40 text-[30px] font-medium"
+            >
+              SEND
+            </button>
+          </div>
         </div>
       </form>
       <Toaster position="top-right" reverseOrder={false} />

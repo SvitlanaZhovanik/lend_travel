@@ -28,12 +28,12 @@ export default function MobileMenu() {
       <div
         className={`smOnly:absolute smOnly:z-30 smOnly:bg-bg_mobile smOnly:backdrop-blur-[3px] ${
           navbarOpen
-            ? ' smOnly:disable-scroll smOnly:!fixed smOnly:left-0 smOnly:top-0 smOnly:h-screen w-screen '
+            ? ' smOnly:disable-scroll smOnly:!fixed smOnly:left-0 smOnly:top-0 smOnly:h-screen w-screen'
             : '!static smOnly:hidden  '
         }`}
       >
-        <div className="relative flex flex-col smOnly:w-full items-center justify-center  smOnly:h-screen  smOnly:overflow-y-auto">
-          <Navigate />
+        <div className="container relative flex flex-col smOnly:w-full items-center justify-center  smOnly:h-screen  smOnly:overflow-y-auto">
+          <Navigate onClick={closeNavbar} />
           <button
             type="button"
             className="absolute top-0 right-0 mt-[38px] mr-5 md:hidden tracking-[1.4px]"

@@ -43,14 +43,14 @@ export default function Gallery() {
           <div className="hidden md:flex absolute top-[86%] left-1/2 transform -translate-x-1/2  gap-[494px] xl:top-[87%] xl:gap-[850px]">
             <button
               onClick={() => instanceRef.current?.prev()}
-              className="text-[33px] font-thin "
+              className="text-[33px] font-thin  duration-300 pb-1  border-b border-b-transparent hover:border-b-white focus:border-b-white"
             >
               {data.btnPrev}
             </button>
 
             <button
               onClick={() => instanceRef.current?.next()}
-              className="text-[33px] font-thin "
+              className="text-[33px] font-thin underline-offset-1 duration-300 pb-1  border-b border-b-transparent hover:border-b-white focus:border-b-white"
             >
               {data.btnNext}
             </button>
