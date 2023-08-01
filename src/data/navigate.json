@@ -11,16 +11,11 @@
     },
     {
         "id": 3,
-        "name": "Career",
-        "link": "career"
-    },
-    {
-        "id": 4,
         "name": "Gallery",
         "link": "gallery"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Contact",
         "link": "contact"
     }

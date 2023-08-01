@@ -2,7 +2,7 @@ import data from '@/data/about.json';
 
 export default function About() {
   return (
-    <section className="pt-[69px] pb-[49px] about md:pt-[79px] md:pb-[84px] xl:pt-[103px] xl:pb-[90px]">
+    <section id='about' className="pt-[69px] pb-[49px] about md:pt-[79px] md:pb-[84px] xl:pt-[103px] xl:pb-[90px]">
       <div className="container mdOnly:relative">
         <div className="mb-[38px] md:flex mdOnly:justify-between md:mb-[79px] xl:gap-[21px] xl:mb-[71px]">
           <h2 className="title smOnly:mb-2">

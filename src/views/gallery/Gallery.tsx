@@ -17,7 +17,10 @@ export default function Gallery() {
   });
 
   return (
-    <section className="relative py-10 md:py-20 xl:pt-[100px] xl:pb-[125px] gallery">
+    <section
+      id="gallery"
+      className="relative py-10 md:py-20 xl:pt-[100px] xl:pb-[125px] gallery"
+    >
       <div className="container">
         <h2 className="title mb-6 md:mb-[66px] xl:mb-4">
           {data.title.text}{' '}

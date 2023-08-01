@@ -9,6 +9,10 @@ export default function Navigate() {
         {data.map(item => (
           <li key={item.id}>
             <Link
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={500}
               to={item.link}
               className="md:text-[14px] inline-block pb-1 leading-none text-[18px] font-normal tracking-[1.8px] border-b border-b-transparent hover:border-b-white focus:border-b-white"
             >

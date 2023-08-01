@@ -21,7 +21,7 @@ export default function Services() {
   });
 
   return (
-    <section className="relative">
+    <section className="relative" id="services">
       <ul ref={sliderRef} className="keen-slider">
         {data.slides.map(slide => (
           <Slide key={slide.id} {...slide} />
