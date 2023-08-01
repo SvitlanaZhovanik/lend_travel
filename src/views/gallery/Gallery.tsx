@@ -34,6 +34,7 @@ export default function Gallery() {
                 alt={img.text}
                 width={280}
                 height={187}
+                quality={100}
                 className="w-full"
               />
             </li>
